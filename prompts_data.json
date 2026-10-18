@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "HM001",
+    "category": "Listing Optimization",
+    "title": "High-Conversion Listing Audit",
+    "description": "Audit the listing as a first-time guest would.",
+    "prompt": "Act as an ethical short-term-rental listing optimisation consultant for India. Audit this property listing using only the information I provide.\nPROPERTY TYPE: [flat/studio/villa/homestay/farmhouse/room]\nCITY/AREA: [location]\nLISTING URL OR CURRENT COPY: [paste]\nAMENITIES: [list]\nHOUSE RULES / LIMITATIONS: [list]\nTARGET GUESTS: [families/couples/work travellers/etc.]\n\nReturn: (1) strengths, (2) unclear or missing information, (3) trust concerns, (4) five highest-impact improvements ranked by effort and likely guest value, (5) facts I must verify before publishing. Do not invent amenities, views, distances, awards, or guarantees. Keep Airbnb rules in mind.",
+    "tags": "listing,audit,beginner"
+  },
+  {
+    "id": "HM002",
+    "category": "Listing Optimization",
+    "title": "Title Ideas With Real Differentiators",
+    "description": "Create accurate titles based on property strengths.",
+    "prompt": "Generate 20 concise Airbnb listing title options for this Indian stay. PROPERTY: [type], LOCATION: [area/city], REAL HIGHLIGHTS: [list], BEST-FIT GUEST: [guest type], LIMITS: [anything important]. Group titles into: location-led, amenity-led, experience-led, and practical/convenience-led. Keep every title factual, readable on mobile, and not clickbait. Do not repeat the same formula or claim that the stay is 'best' unless independently substantiated. Finish with your top 3 and explain why each is clear.",
+    "tags": "title,listing,copywriting"
+  },
+  {
+    "id": "HM003",
+    "category": "Listing Optimization",
+    "title": "Listing Description Rewrite",
+    "description": "Turn rough notes into clear, scannable listing copy.",
+    "prompt": "Rewrite my rough property notes into an accurate, guest-friendly Airbnb listing description. NOTES: [paste]. PROPERTY TYPE: [type]. AREA: [location]. GUEST CAPACITY: [number and sleeping layout]. AMENITIES: [list]. ACCESS / STAIRS / PARKING: [details]. HOUSE RULES: [details].\nStructure: opening summary, what guests will love, sleeping and living spaces, amenities, access, neighbourhood, important things to know. Use natural Indian English, short paragraphs and bullets where helpful. Never hide limitations or make up facts. Ask me for missing details instead of guessing.",
+    "tags": "description,copywriting,listing"
+  },
+  {
+    "id": "HM004",
+    "category": "Listing Optimization",
+    "title": "Unique Selling Proposition Finder",
+    "description": "Find the property’s most defensible marketing angle.",
+    "prompt": "Help me identify a clear and honest unique selling proposition for my stay. Details: property type [type], location [area], amenities [list], nearby landmarks with verified distances [list], guest feedback [paste if any], target guests [segment], competing stays [notes]. Give 5 positioning angles, who each angle suits, proof needed to support it, and sample headline. Avoid generic claims like luxury, premium, hidden gem or perfect unless the details justify them.",
+    "tags": "USP,positioning,listing"
+  },
+  {
+    "id": "HM005",
+    "category": "Listing Optimization",
+    "title": "Amenities Completeness Checklist",
+    "description": "Spot useful missing details without inventing facilities.",
+    "prompt": "Create an amenity and disclosure checklist for my [property type] in [Indian city/area]. Current amenities: [list]. Sleeping capacity: [details]. Kitchen: [details]. Work setup: [details]. Accessibility: [details]. Parking/transport: [details]. Safety equipment: [details]. Separate into: essential information to confirm, guest-comfort extras, family/work-travel considerations, and limitations to disclose clearly. Do not assume an amenity exists; label each as 'confirm', 'already available' or 'not applicable'.",
+    "tags": "amenities,checklist,listing"
+  },
+  {
+    "id": "HM006",
+    "category": "Listing Optimization",
+    "title": "Target Guest Persona",
+    "description": "Choose a realistic audience based on the actual property.",
+    "prompt": "Analyse which guest segments may be a good fit for this Indian accommodation. Property details: [details]; location and verified nearby destinations: [details]; sleeping layout: [details]; amenities: [details]; restrictions: [details]; price range: [range if known]. Compare up to 5 segments (families, work travellers, small groups, couples, solo travellers, long-stay guests, etc.). For each give needs, matching property strengths, possible mismatch risks and content angles. Do not make assumptions about protected traits or promise demand.",
+    "tags": "audience,positioning,guest persona"
+  },
+  {
+    "id": "HM007",
+    "category": "Listing Optimization",
+    "title": "Guest-Focused Listing Benefits",
+    "description": "Translate features into practical benefits.",
+    "prompt": "Convert this feature list into guest-focused benefits for an Airbnb listing: [features]. For each feature write: simple benefit, which traveller may care, one clear sentence for the listing, and any limitation the host should mention. Use specific language instead of hype. Never claim a feature is available unless it appears in my list.",
+    "tags": "benefits,listing,copywriting"
+  },
+  {
+    "id": "HM008",
+    "category": "Listing Optimization",
+    "title": "Listing FAQ Builder",
+    "description": "Answer common guest questions before they need to ask.",
+    "prompt": "Create a useful pre-booking FAQ for this stay: [property details]. Include check-in/out, sleeping arrangements, kitchen use, Wi-Fi/work setup, parking, transport, stairs/lift, visitor policy, noise, power backup, pets, child suitability and local access only where relevant. For facts I have not supplied, write '[HOST TO CONFIRM]' instead of guessing. Give concise guest-facing answers plus a host verification checklist.",
+    "tags": "FAQ,listing,guest questions"
+  },
+  {
+    "id": "HM009",
+    "category": "Listing Optimization",
+    "title": "Honest Neighbourhood Description",
+    "description": "Explain the area without exaggerated distances.",
+    "prompt": "Write a neighbourhood section for my listing using only these verified facts: property area [area], landmarks [name + verified distance/time + travel mode], transport [details], food/shops [details], noise or access notes [details]. Make it useful for first-time visitors to India. Distinguish walking distance from driving time and mark anything that needs confirmation. Do not invent nearby places or describe an area as safe/unsafe without evidence.",
+    "tags": "neighbourhood,local SEO,listing"
+  },
+  {
+    "id": "HM010",
+    "category": "Listing Optimization",
+    "title": "First-Time Host Listing Setup",
+    "description": "A plain-language setup checklist for new hosts.",
+    "prompt": "Act as a beginner-friendly Airbnb hosting coach in India. My property: [type], city [city], readiness [planning/furnishing/already listed]. Create a step-by-step listing setup checklist covering property details, accurate photos, amenities, house rules, pricing inputs, cancellation settings to review, availability, guest messages and local requirements to independently verify. Explain why each step matters in plain Hinglish. Do not provide legal/tax certainty; flag items to confirm with official local sources.",
+    "tags": "beginner,setup,checklist"
+  },
+  {
+    "id": "HM011",
+    "category": "Listing Optimization",
+    "title": "Mobile Readability Check",
+    "description": "Make the first few lines do their job.",
+    "prompt": "Review this listing title and opening description for mobile readability: [paste]. Target guest [segment]. Main verified benefits [list]. Suggest 5 opening options under 45 words each, remove repetition, flag vague claims, and make the most important practical facts easy to scan. Preserve accuracy and do not add amenities or discounts that I did not provide.",
+    "tags": "mobile,description,editing"
+  },
+  {
+    "id": "HM012",
+    "category": "Listing Optimization",
+    "title": "House Rules That Sound Welcoming",
+    "description": "Make rules clear without sounding hostile.",
+    "prompt": "Rewrite these house rules to be warm, concise, specific and enforceable: [paste]. Property context: [type/location]. Include quiet hours, occupancy, smoking, parties, visitor policy, parking, kitchen use, waste disposal and checkout only when applicable. Do not invent rules or add penalties not supplied. Return a guest-facing version and a private host checklist of points I should decide before publishing.",
+    "tags": "house rules,listing,communication"
+  },
+  {
+    "id": "HM013",
+    "category": "Listing Optimization",
+    "title": "Listing Refresh Plan",
+    "description": "Find what to update when performance stalls.",
+    "prompt": "Create a 2-week listing refresh plan for my stay. Current listing copy: [paste], photo list: [list], nightly price range: [range], available dates: [details], approximate views/enquiries/bookings if known: [data], comparable listings: [notes]. Prioritise one variable at a time, distinguish observation from guess, and show what to change, why, how to measure it, and when to reassess. Don't claim the changes will guarantee bookings.",
+    "tags": "refresh,optimization,analytics"
+  },
+  {
+    "id": "HM014",
+    "category": "Reels & Short Videos",
+    "title": "30-Second Property Tour Reel",
+    "description": "Build a concise room-by-room tour.",
+    "prompt": "Write a 30-second vertical Reel script for my Indian stay. Property: [type], location: [city/area], actual standout features: [list], target guest: [segment], available clips: [list]. Format as timestamp, shot, on-screen text, voiceover, and edit note. Hook should be specific, not clickbait. End with a soft call to check availability on my Airbnb listing. Do not use fake scarcity or claim bookings are guaranteed.",
+    "tags": "reel,property tour,video"
+  },
+  {
+    "id": "HM015",
+    "category": "Reels & Short Videos",
+    "title": "Five Hook Options",
+    "description": "Open the video with a strong truthful line.",
+    "prompt": "Create 25 short opening hooks for a Reel promoting this stay: [details]. Sort into curiosity, practical benefit, location, guest-type fit, and behind-the-scenes. Every hook must be verifiable from my facts and readable in 2 seconds. Avoid 'secret place', 'cheapest', 'best in India' and misleading claims unless evidenced. Include the visual that should appear alongside each hook.",
+    "tags": "hooks,reel,content"
+  },
+  {
+    "id": "HM016",
+    "category": "Reels & Short Videos",
+    "title": "No-Face Reel Script",
+    "description": "Promote the property without appearing on camera.",
+    "prompt": "Create 10 no-face Reel ideas for this property: [details]. I can film [rooms/features/local approved footage] using a phone. For every idea include first frame, 5–7 shot sequence, on-screen copy, music/mood direction without naming copyrighted lyrics, duration and CTA. Prioritise useful property facts and guest experience; avoid filming guest belongings, faces or private spaces without permission.",
+    "tags": "no face,Reel,phone video"
+  },
+  {
+    "id": "HM017",
+    "category": "Reels & Short Videos",
+    "title": "Room-by-Room Shot List",
+    "description": "A practical filming plan for one afternoon.",
+    "prompt": "Build a phone-filming shot list for a [property type] in [city]. Rooms/spaces: [list]. Best natural-light times: [known details]. Key amenities: [list]. Create a sequence with wide shots, detail shots, movement shots, transition ideas and clips to avoid. Explain simple framing and stability tips for a beginner. Represent spaces accurately; don't digitally add windows, views or amenities.",
+    "tags": "shot list,filming,property tour"
+  },
+  {
+    "id": "HM018",
+    "category": "Reels & Short Videos",
+    "title": "Local Area Reel",
+    "description": "Show the destination without overstating proximity.",
+    "prompt": "Create a 20–30 second local-area Reel for a stay in [area/city]. Verified nearby places: [names, distances, travel times, sources or notes]. Target guests: [segment]. Give a hook, scene list, concise on-screen text, caption and a disclaimer for variable traffic/travel time where appropriate. Do not invent attractions, routes or exact travel times. Keep property footage and local footage clearly distinguished.",
+    "tags": "local area,destination,reel"
+  },
+  {
+    "id": "HM019",
+    "category": "Reels & Short Videos",
+    "title": "Amenities Spotlight Series",
+    "description": "Turn real amenities into repeatable video ideas.",
+    "prompt": "Plan a 7-Reel series highlighting the real amenities of my stay: [list]. For each Reel give guest problem, visual demonstration, 3 shots, on-screen text, short voiceover and CTA. Choose only amenities actually available. Include small practical details like workspace, kitchen equipment, parking or sleeping layout if relevant.",
+    "tags": "amenities,series,reel"
+  },
+  {
+    "id": "HM020",
+    "category": "Reels & Short Videos",
+    "title": "Behind-the-Scenes Host Reel",
+    "description": "Build trust through responsible preparation.",
+    "prompt": "Write a friendly behind-the-scenes Reel about preparing my property between stays. My real preparation steps are [list]. Create a 25-second sequence showing cleaning checks, linen setup, restocking, safety review and final room scan only if these are truly part of my process. Do not depict unsafe shortcuts or claim certifications I don't have. End with an invitation to review the listing details.",
+    "tags": "behind the scenes,trust,reel"
+  },
+  {
+    "id": "HM021",
+    "category": "Reels & Short Videos",
+    "title": "Weekend Getaway Reel",
+    "description": "Market the experience for a realistic guest segment.",
+    "prompt": "Create a weekend-getaway Reel concept for my property in [location]. Property details [list], local activities verified [list], realistic travel access [details], ideal guest segment [segment]. Include 3 hooks, shot order, copy overlays and caption. Avoid implying the location or property fits everyone; mention practical constraints where useful.",
+    "tags": "weekend,travel,reel"
+  },
+  {
+    "id": "HM022",
+    "category": "Reels & Short Videos",
+    "title": "Seasonal Content Reel",
+    "description": "Adapt promotion to season without inaccurate claims.",
+    "prompt": "Create four seasonal Reel concepts for my stay in [city/region]: summer, monsoon, winter and festive/travel periods as relevant. Property features and limitations: [list]. Use only activities and amenities actually available. For each concept provide hook, shots, caption, and a checklist of weather/access facts to verify before posting. Do not promise weather or view conditions.",
+    "tags": "seasonal,reel,content planning"
+  },
+  {
+    "id": "HM023",
+    "category": "Reels & Short Videos",
+    "title": "Voiceover in Hinglish",
+    "description": "Sound natural for an Indian host brand.",
+    "prompt": "Write 3 natural Hinglish voiceovers (15, 25 and 35 seconds) for my stay: [details]. Audience [segment]. Tone: [warm/minimal/playful/premium/practical]. Avoid exaggerated sales language and forced slang. Add pronunciation-friendly phrasing, simple on-screen captions and one clear CTA. Include only confirmed facts.",
+    "tags": "Hinglish,voiceover,reel"
+  },
+  {
+    "id": "HM024",
+    "category": "Reels & Short Videos",
+    "title": "Reel Repurposing Plan",
+    "description": "Reuse one property shoot across several posts.",
+    "prompt": "I have these video clips: [inventory]. Build a repurposing matrix for 12 short videos without pretending the footage shows something it doesn't. For each video specify clip sequence, different audience angle, opening text, caption theme and CTA. Highlight what additional footage would be needed for any idea. Keep each edit distinct rather than repeating the same tour.",
+    "tags": "repurpose,content system,reel"
+  },
+  {
+    "id": "HM025",
+    "category": "Reels & Short Videos",
+    "title": "Reel Performance Review",
+    "description": "Diagnose content using available metrics.",
+    "prompt": "Review these Reel metrics and notes: [views, watch time, retention if available, saves, profile visits, listing clicks, enquiries, dates]. Content description: [what the video showed]. Identify possible patterns, what cannot be concluded from this sample, and 3 small experiments for the next posts. Separate reach metrics from actual booking outcomes; avoid claiming causation from a tiny sample.",
+    "tags": "metrics,analytics,reel"
+  },
+  {
+    "id": "HM026",
+    "category": "Reels & Short Videos",
+    "title": "Host Introduction Video",
+    "description": "Introduce the host in a credible, welcoming way.",
+    "prompt": "Write a 20-second host introduction video for [name/host brand], hosting [property type] in [location]. Real reason for hosting: [reason], what guests can expect: [facts], communication style: [style], boundaries: [check-in method/availability]. Give a natural script, 4 shot ideas and captions. Do not invent credentials or imply 24/7 availability unless true.",
+    "tags": "host intro,trust,video"
+  },
+  {
+    "id": "HM027",
+    "category": "Instagram Content",
+    "title": "30-Day Instagram Content Map",
+    "description": "Plan varied content in a simple weekly rhythm.",
+    "prompt": "Create a 30-day Instagram content map for my [property type] in [location]. Target guest [segment], verified features [list], local highlights [list], current content capacity [hours/week]. Use a simple numbered checklist, not a calendar app. Mix property tours, useful details, FAQs, local tips, behind-the-scenes and guest-experience preparation. For each day give format, topic, first-line hook and CTA. Avoid repetitive posts and false urgency.",
+    "tags": "Instagram,30 day,planning"
+  },
+  {
+    "id": "HM028",
+    "category": "Instagram Content",
+    "title": "Caption Generator: Practical Style",
+    "description": "Write guest-focused captions, not generic travel fluff.",
+    "prompt": "Write 12 Instagram captions for this property: [details]. Audience [segment]. Each caption must focus on a different angle: sleeping setup, workspace, kitchen, location, family practicality, local outing, host preparation, FAQs, quiet time, group fit, seasonal use, or design detail where applicable. Include a natural CTA and 3–6 relevant hashtags. Never add facts not in the brief; make missing details visible to me.",
+    "tags": "caption,Instagram,copywriting"
+  },
+  {
+    "id": "HM029",
+    "category": "Instagram Content",
+    "title": "Instagram Bio Rewrite",
+    "description": "Make the profile explain the stay clearly.",
+    "prompt": "Create 10 Instagram bio options for my accommodation brand. Property type [type], location [area], strongest verified features [list], target guest [segment], booking destination [Airbnb listing URL or instruction]. Keep the bio concise and clear about what is offered. Provide variations: practical, warm, design-led, family-friendly if relevant, and local-experience-led. Do not stuff keywords or claim top rankings.",
+    "tags": "bio,Instagram,profile"
+  },
+  {
+    "id": "HM030",
+    "category": "Instagram Content",
+    "title": "Story Sequence for Enquiries",
+    "description": "Answer questions before asking people to book.",
+    "prompt": "Create a 6-frame Instagram Story sequence for my stay: [details]. Objective: help relevant travellers understand the property and visit the Airbnb listing. Frame each as: purpose, visual, headline, supporting text, optional poll/question, and CTA. Don't request sensitive guest data in public Story replies. All claims about capacity, location and amenities must match the property facts.",
+    "tags": "Stories,enquiries,Instagram"
+  },
+  {
+    "id": "HM031",
+    "category": "Instagram Content",
+    "title": "FAQ Story Highlight Plan",
+    "description": "Organise profile highlights around real guest questions.",
+    "prompt": "Design an Instagram Story Highlights structure for my [property type]. Include suggested highlight names, cover label, 3–5 frames each and what information to verify. Relevant topics may include Rooms, Amenities, Location, Getting Here, House Rules, FAQs and Host. Flag any details that change often. Keep text short enough for a phone screen and avoid publishing access codes or private security information.",
+    "tags": "highlights,FAQ,Instagram"
+  },
+  {
+    "id": "HM032",
+    "category": "Instagram Content",
+    "title": "Brand Voice Guide",
+    "description": "Make posts consistent across channels.",
+    "prompt": "Create a one-page brand voice guide for my stay: name [name], location [area], property style [style], target audience [segment], real benefits [list], words I like/dislike [list]. Define 4 voice traits, example phrases, phrases to avoid, emoji policy, caption structure and 5 before/after examples. Keep the tone credible and culturally natural for Indian travellers.",
+    "tags": "brand voice,branding,consistency"
+  },
+  {
+    "id": "HM033",
+    "category": "Instagram Content",
+    "title": "Guest-Type Content Angles",
+    "description": "Create angles for different appropriate audiences.",
+    "prompt": "For my property details [paste], generate separate Instagram content angles for these relevant traveller segments: families, work travellers, small friend groups, solo travellers and long-stay guests. For each, show the real property details to highlight, one Reel concept, one static post, one FAQ and any suitability caveat. Do not say the property suits a segment if the layout, rules or facilities conflict with it.",
+    "tags": "audience,segmentation,Instagram"
+  },
+  {
+    "id": "HM034",
+    "category": "Instagram Content",
+    "title": "Local Business Collaboration Idea",
+    "description": "Find partnership concepts without fabricated endorsements.",
+    "prompt": "Suggest 12 ethical collaboration concepts between my stay in [area] and local businesses/experiences: [verified list]. For each give mutual value, content idea, permission needed and how to disclose any paid or reciprocal relationship. Do not fabricate existing partnerships or reviews. Keep the guest journey and platform rules in mind; direct Airbnb bookings should remain on Airbnb.",
+    "tags": "partnerships,local,Instagram"
+  },
+  {
+    "id": "HM035",
+    "category": "Instagram Content",
+    "title": "User-Generated Content Request",
+    "description": "Ask permission to share guest content politely.",
+    "prompt": "Draft 3 polite post-stay messages asking guests whether they would voluntarily permit us to share a photo or comment they created. Make clear participation is optional, ask for explicit permission and preferred credit, and never tie the request to a review or benefit. Include a simple permission checklist for names, faces, location metadata and third-party people visible in the content.",
+    "tags": "UGC,permission,guest content"
+  },
+  {
+    "id": "HM036",
+    "category": "Instagram Content",
+    "title": "Profile Audit",
+    "description": "Make the profile clear, trustworthy and actionable.",
+    "prompt": "Audit my Instagram profile using this information: bio [paste], post themes [list], highlights [list], profile link [destination], recent performance [metrics]. Return a prioritised checklist for clarity, visual consistency, factual credibility, profile-to-listing pathway and content variety. Do not assume Instagram views become bookings; suggest metrics to track and what additional data is needed.",
+    "tags": "audit,Instagram,profile"
+  },
+  {
+    "id": "HM037",
+    "category": "Carousel Posts",
+    "title": "7-Slide Property Introduction Carousel",
+    "description": "Introduce the stay in a swipeable sequence.",
+    "prompt": "Create a 7-slide Instagram carousel introducing my stay: [property details]. For each slide provide a short headline (max 7 words), body copy (max 25 words), suggested real photo/visual, and accessibility alt-text idea. Suggested flow: location, first impression, sleeping setup, key amenities, who it suits, important things to know, CTA. Don't invent features, distances or views.",
+    "tags": "carousel,introduction,Instagram"
+  },
+  {
+    "id": "HM038",
+    "category": "Carousel Posts",
+    "title": "Amenities Explained Carousel",
+    "description": "Explain benefits with one idea per slide.",
+    "prompt": "Create an 8-slide carousel on the most useful amenities at my property: [verified amenity list]. For each slide: one amenity, why a guest may value it, factual detail to confirm, image suggestion and concise copy. Add a clear intro and final listing CTA. Do not present standard/optional items as included unless confirmed.",
+    "tags": "carousel,amenities,design"
+  },
+  {
+    "id": "HM039",
+    "category": "Carousel Posts",
+    "title": "Things to Know Before Booking",
+    "description": "Set accurate expectations before arrival.",
+    "prompt": "Create a helpful 7-slide 'Things to know before booking' carousel for my stay. Facts and limitations: [paste]. Include access, stairs/lift, sleeping layout, local transport, house rules, noise/access limits and check-in basics where relevant. The tone should be confident and transparent, not defensive. Mark facts I need to verify before publishing.",
+    "tags": "carousel,transparency,listing"
+  },
+  {
+    "id": "HM040",
+    "category": "Carousel Posts",
+    "title": "Area Guide Carousel",
+    "description": "Show local highlights with clear travel context.",
+    "prompt": "Create a 6–8 slide local area guide for [area/city] using only these verified places and details: [list, distance, source/date]. Include a balanced mix relevant to [target guest]. Each slide needs a short caption, photo idea and travel caveat. Distinguish walking distance from drive time and remind me to recheck opening hours and route information before posting.",
+    "tags": "local guide,carousel,travel"
+  },
+  {
+    "id": "HM041",
+    "category": "Carousel Posts",
+    "title": "New Host Trust Carousel",
+    "description": "Explain what guests can expect from the hosting process.",
+    "prompt": "Create a 7-slide carousel that helps first-time guests understand my hosting process. My actual process: [check-in, communication, cleaning checks, house information, support limits]. Show practical commitments without inventing certifications or guaranteeing perfection. Finish with FAQs guests should review before booking.",
+    "tags": "trust,carousel,host"
+  },
+  {
+    "id": "HM042",
+    "category": "Carousel Posts",
+    "title": "Family Stay Carousel",
+    "description": "Highlight family-useful details without assumptions.",
+    "prompt": "Create a 7-slide carousel for families considering my property. Verified details: [bed configuration, child-related amenities, kitchen, lift/stairs, parking, noise/location, rules]. Separate available features from features not offered. Include a 'please confirm with host' note where guests need to discuss individual needs.",
+    "tags": "family,carousel,guest fit"
+  },
+  {
+    "id": "HM043",
+    "category": "Carousel Posts",
+    "title": "Workation Carousel",
+    "description": "Present work-friendly features accurately.",
+    "prompt": "Create a 6-slide workation carousel from these confirmed facts: Wi-Fi [known details/test date], workspace [description], seating [details], power backup [details], nearby cafés/transport [verified list], quiet-hour rules [details]. Do not claim Wi-Fi speeds or uninterrupted power unless tested and documented. Include a practical pre-booking checklist for remote workers.",
+    "tags": "workation,carousel,workspace"
+  },
+  {
+    "id": "HM044",
+    "category": "Carousel Posts",
+    "title": "Carousel Design System",
+    "description": "Keep multiple posts visually consistent.",
+    "prompt": "Create a reusable visual design system for a host brand with property style [style], brand colours [colours], type preferences [preferences], photo style [style] and target guests [segment]. Define slide margins, type hierarchy, photo treatment, icon approach, CTA slide and accessibility rules. Use mobile-first readable text and don't let decorative elements obscure real property photos.",
+    "tags": "design system,carousel,branding"
+  },
+  {
+    "id": "HM045",
+    "category": "Posters & Graphics",
+    "title": "Instagram Post Design Prompt",
+    "description": "Create a reusable post brief for image generation or Canva.",
+    "prompt": "Act as a hospitality brand designer. Create a square Instagram post concept for [property name/type] in [location]. Objective [objective], real feature [feature], target guest [segment], brand colours [colours], available photo [describe]. Return layout, headline (max 8 words), supporting copy (max 20 words), composition, typography mood and CTA. Preserve the actual property appearance; leave clear space for readable text; avoid tiny text and unverified superlatives.",
+    "tags": "poster,Instagram,design"
+  },
+  {
+    "id": "HM046",
+    "category": "Posters & Graphics",
+    "title": "Property Launch Poster",
+    "description": "Announce the property with clear factual details.",
+    "prompt": "Design a clean property-launch poster concept for [name], [property type], [location]. Verified features [list], audience [segment], brand colours [colours], platform [Instagram/print]. Give headline options, visual hierarchy, photo placement, limited copy and CTA to view availability on Airbnb. Do not display invented prices, discounts, availability, testimonials or booking guarantees.",
+    "tags": "launch,poster,graphic"
+  },
+  {
+    "id": "HM047",
+    "category": "Posters & Graphics",
+    "title": "Seasonal Offer Creative",
+    "description": "Create an offer visual only when terms are confirmed.",
+    "prompt": "Develop a seasonal promotional graphic for my stay. Campaign [name], valid dates [dates], verified terms [terms], property features [features], platform [platform]. Provide headline, subhead, layout, photo direction and clear terms placement. If no confirmed offer/discount exists, make this an inspiration-led seasonal post rather than inventing a deal. Avoid fake countdowns or scarcity.",
+    "tags": "seasonal,offer,poster"
+  },
+  {
+    "id": "HM048",
+    "category": "Posters & Graphics",
+    "title": "Minimalist Wi-Fi Card Design",
+    "description": "Design a printable in-room Wi-Fi card.",
+    "prompt": "Create a minimal, print-friendly Wi-Fi card for a guest stay. Property style [style], colours [colours], network label [Wi-Fi name placeholder], password field [blank or host-filled], help contact [contact]. Use a high-contrast layout, large type, no unnecessary decoration and safe spacing. Treat Wi-Fi credentials as private guest information; don't include them in public marketing designs. Provide a text-only layout plan as fallback.",
+    "tags": "Wi-Fi,printable,guest card"
+  },
+  {
+    "id": "HM049",
+    "category": "Posters & Graphics",
+    "title": "House Rules Poster Design",
+    "description": "Make key rules easy to scan at a glance.",
+    "prompt": "Create a one-page printable house-rules poster for [property name]. Actual rules [paste]. Brand style [style], paper size [A4/A5], language [English/Hinglish/bilingual]. Use short rule headings, friendly language, high contrast and generous margins. Do not add rules or penalties that I haven't confirmed. Ensure the poster remains readable from a short distance.",
+    "tags": "house rules,poster,print"
+  },
+  {
+    "id": "HM050",
+    "category": "Posters & Graphics",
+    "title": "Welcome Poster Design",
+    "description": "Create a warm printable greeting with fillable details.",
+    "prompt": "Design a print-friendly welcome poster for [property name] in [location]. Host name [name], guest greeting [tone], property style [style], colour palette [colours], practical info to include [list]. Keep the headline warm, the body concise and important information easy to scan. Leave clearly labelled areas for Wi-Fi, contact and check-in details. Do not publish private details on social channels.",
+    "tags": "welcome poster,print,guest"
+  },
+  {
+    "id": "HM051",
+    "category": "Posters & Graphics",
+    "title": "Local Recommendation Poster",
+    "description": "Present selected local recommendations clearly.",
+    "prompt": "Design a local recommendations poster for guests staying at [property]. Verified places [name, category, address/area, current opening notes if known], travel notes [details], emergency numbers to verify [list]. Organise into food, essentials and things to do only where useful. Add a 'check current hours before visiting' note. Do not invent ratings, affiliations, addresses or emergency information.",
+    "tags": "local guide,poster,print"
+  },
+  {
+    "id": "HM052",
+    "category": "Posters & Graphics",
+    "title": "Photo-First Property Ad",
+    "description": "Let a truthful property photo lead the layout.",
+    "prompt": "Create a photo-first ad layout for [property type] in [location]. Actual photo description [describe], verified benefits [list], audience [segment], CTA [view listing]. Specify crop, focal point, text-safe area and one short headline. The design must not alter structural features or depict amenities/views the property doesn't have. Return one feed version and one vertical Story version.",
+    "tags": "ad,photo,creative"
+  },
+  {
+    "id": "HM053",
+    "category": "Posters & Graphics",
+    "title": "Canva Template Brief",
+    "description": "Make a reusable template system for future posts.",
+    "prompt": "Write a Canva template specification for a host brand: [brand/style], property type [type], colours [colours], logo [yes/no], platforms [feed/story/print]. Define 5 templates: property feature, local tip, FAQ, guest guide, and announcement. Give dimensions to select in Canva, safe margins, editable text placeholders, photo guidance and contrast rules. Do not rely on tiny text or stock imagery that misrepresents the property.",
+    "tags": "Canva,template,design"
+  },
+  {
+    "id": "HM054",
+    "category": "Posters & Graphics",
+    "title": "Ad Creative Variations",
+    "description": "Test different message angles using the same real offer.",
+    "prompt": "Produce 5 visual creative briefs to promote the same property: [facts]. Vary the angle (practicality, design, location, guest fit, amenity) while keeping the factual claims and CTA consistent. For each give image direction, headline, supporting line, text placement and a metric to test. No fake reviews, misleading discounts or guaranteed bookings.",
+    "tags": "ad creative,testing,poster"
+  },
+  {
+    "id": "HM055",
+    "category": "Interior Design Ideas",
+    "title": "Room Refresh Plan on a Budget",
+    "description": "Suggest achievable improvements within a stated budget.",
+    "prompt": "Act as a practical hospitality interior-design adviser. Room type [bedroom/living room/bathroom/balcony], dimensions [measurements], current condition [description], budget in INR [amount], items that must stay [list], guest type [segment]. Suggest low-cost, medium-cost and optional upgrades prioritised by comfort, durability, cleaning effort and photo impact. Do not recommend structural changes without professional advice. Separate design ideas from safety, electrical or plumbing work that needs a qualified professional.",
+    "tags": "interior design,budget,room refresh"
+  },
+  {
+    "id": "HM056",
+    "category": "Interior Design Ideas",
+    "title": "Interior Style Moodboard Brief",
+    "description": "Create a coherent style for the real room.",
+    "prompt": "Develop three interior moodboard directions for my rental room: dimensions [dimensions], photos/current furniture [describe], natural light [details], location/climate [city], budget INR [amount], guest profile [segment]. For each style list palette, textiles, lighting, art, storage and photo mood. Keep materials easy to clean and durable for frequent guest turnover. Respect existing walls/windows/doors; no imaginary architectural changes.",
+    "tags": "moodboard,interior,style"
+  },
+  {
+    "id": "HM057",
+    "category": "Interior Design Ideas",
+    "title": "Make a Small Room Feel Functional",
+    "description": "Improve perceived function without pretending the room is larger.",
+    "prompt": "Suggest layout and furnishing options for this small rental room: measurements [length x width], openings [door/window], fixed elements [list], furniture [list], budget [amount]. Prioritise clear circulation, luggage placement, bedside surfaces, lighting, outlets and storage. Provide a simple text layout and measurements to check. Don't suggest blocking exits, ventilation or electrical access. Be honest about spatial limitations.",
+    "tags": "small space,layout,interior"
+  },
+  {
+    "id": "HM058",
+    "category": "Interior Design Ideas",
+    "title": "Balcony or Outdoor Area Styling",
+    "description": "Make the outdoor area guest-ready and safe.",
+    "prompt": "Create a practical styling plan for my [balcony/terrace/patio] based on dimensions [details], weather exposure [details], existing features [list], budget INR [amount] and rules/building restrictions [details]. Suggest seating, shade, low-maintenance plants, lighting and photo angles. Flag waterproofing, railing, load, fire and electrical matters for a qualified professional. Do not suggest unsafe railings or obstructed exits.",
+    "tags": "balcony,outdoor,design"
+  },
+  {
+    "id": "HM059",
+    "category": "Interior Design Ideas",
+    "title": "Bedroom Styling for Listing Photos",
+    "description": "Style the bed and essentials for clear listing photography.",
+    "prompt": "Create a bedroom styling checklist for my rental: bed size [size], linen colours [colours], furniture [list], wall colours [colours], light direction [details], target guest [segment]. Recommend linen layering, clutter removal, practical bedside setup, luggage space and a small number of accents. Prioritise truthful photos and fast turnover. Don't recommend hiding permanent damage or editing the room to look unlike reality.",
+    "tags": "bedroom,staging,photos"
+  },
+  {
+    "id": "HM060",
+    "category": "Interior Design Ideas",
+    "title": "Durable Materials Checklist",
+    "description": "Choose guest-proof finishes using practical criteria.",
+    "prompt": "Compare suitable finishes for a frequently used [room/area] in [city/climate]. Current surface [material], guest volume [estimate], cleaning routine [details], budget INR [range], maintenance team [details]. Compare options by durability, cleaning, repairability, slip resistance where relevant, comfort and approximate cost bands to verify locally. Mark assumptions, recommend supplier quotes and leave electrical/structural compliance to qualified professionals.",
+    "tags": "materials,durability,maintenance"
+  },
+  {
+    "id": "HM061",
+    "category": "Interior Design Ideas",
+    "title": "Indian Homestay Design Concept",
+    "description": "Balance local character and guest comfort.",
+    "prompt": "Suggest three design concepts for a [property type] in [Indian region/city] using real local context [architecture, craft, colours, landscape details]. Budget [amount], rooms [list], restrictions [list]. For each, recommend a restrained palette, a few locally sourced accents, functional furniture, lighting and photo approach. Avoid stereotypes or claiming handmade/local provenance unless verified. Include sourcing questions and maintenance considerations.",
+    "tags": "Indian design,homestay,local"
+  },
+  {
+    "id": "HM062",
+    "category": "Interior Design Ideas",
+    "title": "Photo-Based Room Review",
+    "description": "Review room photos and prioritise honest improvements.",
+    "prompt": "I will provide current room photos. Review only what is visible and distinguish observation from assumption. Property type [type], room dimensions if known [details], budget INR [amount], key guest type [segment]. Return: strong features to retain, distractions to remove, comfort/function issues to investigate, five low-cost improvements and updated shot list. Do not infer hidden dimensions or propose changes that distort the property in future listing photos.",
+    "tags": "photo review,interior,staging"
+  },
+  {
+    "id": "HM063",
+    "category": "Property Photography",
+    "title": "Smartphone Photo Shot List",
+    "description": "Plan a complete, honest listing photo session.",
+    "prompt": "Create a room-by-room smartphone shot list for my property: [type], rooms/spaces [list], important amenities [list], light conditions [details], unique details [list]. Specify wide angle only when it doesn't distort the room, eye-level shots, detail images and the order that tells a clear story. Include checklist for straight vertical lines, clean lenses, natural light and removing clutter. Don't conceal flaws or add objects that aren't included for guests.",
+    "tags": "photography,shot list,mobile"
+  },
+  {
+    "id": "HM064",
+    "category": "Property Photography",
+    "title": "Photo Order for Airbnb Listing",
+    "description": "Sequence photos to answer guests' most important questions.",
+    "prompt": "Recommend a photo sequence based on this real image inventory: [list images and what each shows]. Property layout and sleeping setup [details], target guest [segment], main features [list]. Give a proposed order and explain what question each image answers. Flag missing images (bathroom, sleeping arrangement, entrance, workspace, kitchen, exterior/access) only if relevant. Never suggest misleading crops or photo edits.",
+    "tags": "photo order,listing,optimization"
+  },
+  {
+    "id": "HM065",
+    "category": "Property Photography",
+    "title": "Photo Editing Guidelines",
+    "description": "Improve clarity without changing facts.",
+    "prompt": "Create a safe, realistic photo-editing checklist for my rental listing photos: [describe images]. Suggest adjustments to exposure, white balance, lens correction, straightening and crop. Explicitly forbid adding a view, changing room size, replacing permanent fixtures, removing permanent damage or showing unavailable amenities. Provide a side-by-side QA checklist to ensure every edited image still represents the stay accurately.",
+    "tags": "editing,photography,accuracy"
+  },
+  {
+    "id": "HM066",
+    "category": "Property Photography",
+    "title": "Rainy-Day Indoor Photo Plan",
+    "description": "Capture useful images when natural light is limited.",
+    "prompt": "Plan a photo session for my [property type] on an overcast/rainy day. Available windows/light sources [details], room list [list], phone model if known [model]. Give preparation steps, per-room time plan, stable shooting techniques and backup angles. Do not use fake skies or replace actual weather/views. Include a checklist to decide whether images are clear enough to publish.",
+    "tags": "low light,photo shoot,phone"
+  },
+  {
+    "id": "HM067",
+    "category": "Property Photography",
+    "title": "Amenity Detail Photo Plan",
+    "description": "Show what guests actually receive.",
+    "prompt": "Create a close-up photo checklist for these verified amenities: [list]. For each, say which detail matters to guests, how to stage it without misrepresentation, framing suggestion, and concise accessible caption. Include practical items such as kitchen equipment, work desk, toiletries, parking or accessible features only where they exist. Avoid photographing access codes, private documents or personal data.",
+    "tags": "amenities,detail photos,listing"
+  },
+  {
+    "id": "HM068",
+    "category": "Property Photography",
+    "title": "Photo Captions and Alt Text",
+    "description": "Make images easier to understand and more accessible.",
+    "prompt": "Write factual captions and concise alt-text for these property images: [describe each image]. Property context [details]. For each image produce: guest-facing caption (optional), neutral alt text for accessibility and any fact to verify. Don't overstuff keywords, assume unseen elements, or use promotional claims in alt text.",
+    "tags": "alt text,captions,accessibility"
+  },
+  {
+    "id": "HM069",
+    "category": "Property Photography",
+    "title": "Before-and-After Improvement Plan",
+    "description": "Compare presentation issues without hiding condition.",
+    "prompt": "I will describe current photos and proposed improvements for [room]. Current issues [list], budget [INR], constraints [list]. Create a practical before-and-after improvement plan focusing on cleaning, lighting, styling, storage and small repairs. Clearly distinguish cosmetic staging from repairs. Do not advise deceptive editing or withholding information about material limitations.",
+    "tags": "before after,staging,improvement"
+  },
+  {
+    "id": "HM070",
+    "category": "Property Photography",
+    "title": "Exterior and Arrival Photos",
+    "description": "Help guests recognise the correct arrival point.",
+    "prompt": "Plan accurate arrival and exterior photos for my property in [area]. Entry path [details], signage [details], parking/access [details], building privacy/security rules [details]. Recommend which public-facing angles help guests orient themselves and which sensitive details to exclude (keys, codes, security panels, neighbouring occupants). Include captions for any access restrictions. Verify permissions before photographing shared areas.",
+    "tags": "exterior,arrival,privacy"
+  },
+  {
+    "id": "HM071",
+    "category": "Pricing & Competitor Research",
+    "title": "Comparable Listing Research",
+    "description": "Compare like with like before deciding a price.",
+    "prompt": "Act as a research assistant for my short-term rental in [city/area]. My property: [type], guest capacity [number/layout], amenities [list], booking constraints [details], dates/season [period], current price [INR]. Compare these competitor observations I provide: [URLs or notes]. Build a table of comparable features, pricing, fees if visible, review themes, availability signals and limitations. Don't invent scraped data or assume listed prices equal final guest cost. Identify 5 research gaps to fill manually.",
+    "tags": "competitors,pricing,research"
+  },
+  {
+    "id": "HM072",
+    "category": "Pricing & Competitor Research",
+    "title": "Nightly Pricing Decision Framework",
+    "description": "Balance demand signals, cost and comparable stays.",
+    "prompt": "Build a pricing decision framework for my stay. Location [area], property type [type], fixed monthly costs [INR], per-turnover costs [INR], capacity [details], comparable price observations [data], season/event dates to verify [list], minimum stay constraints [details]. Provide a worksheet formula and example using clearly labelled hypothetical numbers. Explain trade-offs among occupancy, average nightly rate and net contribution. Do not present a suggested price as guaranteed optimal.",
+    "tags": "pricing,framework,finance"
+  },
+  {
+    "id": "HM073",
+    "category": "Pricing & Competitor Research",
+    "title": "Weekday vs Weekend Review",
+    "description": "Check whether different nights need different assumptions.",
+    "prompt": "Analyse these recent booking and pricing data: [date range, weekday/weekend rates, nights sold, fees/costs if known]. Property context [type/area]. Summarise patterns, sample-size limitations and possible explanations. Suggest a controlled test for weekday/weekend price differences and what metric to compare. Do not assume weekends always have higher demand; ask for local event and competitor context where missing.",
+    "tags": "weekday,weekend,pricing"
+  },
+  {
+    "id": "HM074",
+    "category": "Pricing & Competitor Research",
+    "title": "Seasonality Research Checklist",
+    "description": "Research events and seasonal patterns responsibly.",
+    "prompt": "Create a seasonality research checklist for [city/area] for the next [period]. Property type [type], target guests [segment]. List source types to check: official event calendars, school/holiday periods, local business calendars, weather, transport disruptions and comparable listings. Provide a table for date, evidence, expected relevance, confidence and last-checked date. Do not invent dates, demand levels or forecasts; clearly label hypotheses.",
+    "tags": "seasonality,research,events"
+  },
+  {
+    "id": "HM075",
+    "category": "Pricing & Competitor Research",
+    "title": "Competitor Differentiation Matrix",
+    "description": "Identify defensible reasons to choose your property.",
+    "prompt": "Using my property details [paste] and competitor notes [paste], create a differentiation matrix. Columns: feature/benefit, our actual proof, competitors' visible positioning, guest segment, cost to improve, and whether it belongs in the listing or marketing. Separate confirmed facts from assumptions and avoid attacking competitors. Finish with 3 realistic positioning options.",
+    "tags": "differentiation,competitors,positioning"
+  },
+  {
+    "id": "HM076",
+    "category": "Pricing & Competitor Research",
+    "title": "Price Objection FAQ",
+    "description": "Explain value without arguing with guests.",
+    "prompt": "Draft respectful responses to guest questions such as 'Can you reduce the price?', 'Is this the final total?', or 'Why is this stay priced this way?' using my real features, fees and current policy: [details]. Keep every response factual and polite; don't pressure guests, hide fees or ask them to pay outside Airbnb. Include a checklist of pricing/fee information the host should verify in the listing.",
+    "tags": "price objection,guest messages,pricing"
+  },
+  {
+    "id": "HM077",
+    "category": "Pricing & Competitor Research",
+    "title": "Event-Period Pricing Review",
+    "description": "Avoid reactive pricing based on guesswork.",
+    "prompt": "Evaluate whether I should adjust pricing for these possible local dates/events: [events with source/date]. Property [type/area], baseline rates [data], comparable listing observations [data], remaining inventory [details]. Give evidence needed, downside risks and a decision log template. Distinguish verified event facts from demand hypotheses and recheck current official event information before acting.",
+    "tags": "events,pricing,analysis"
+  },
+  {
+    "id": "HM078",
+    "category": "Pricing & Competitor Research",
+    "title": "Cleaning and Turnover Cost Calculator",
+    "description": "Understand net contribution, not just nightly rate.",
+    "prompt": "Help me build a simple per-booking cost worksheet for my stay in India. Fixed costs [list/monthly INR], variable costs [cleaning/laundry/consumables/utilities], host fees/taxes to confirm [details], average stay length [nights]. Give spreadsheet columns and formulas for gross booking amount, variable costs, allocated fixed costs and estimated contribution. Mark tax/platform fee treatment as items to verify from official current sources; don't provide tax advice as certainty.",
+    "tags": "costs,spreadsheet,unit economics"
+  },
+  {
+    "id": "HM079",
+    "category": "Pricing & Competitor Research",
+    "title": "Minimum-Stay Decision Guide",
+    "description": "Think through stay-length trade-offs.",
+    "prompt": "Help evaluate minimum-stay options for my property: [type/area], turnover cost [INR], occupancy pattern if known [data], target guests [segment], local constraints [details]. Compare 1-night, 2-night and longer minimums conceptually; list likely trade-offs and data needed. Use examples with clearly marked hypothetical numbers only and do not assume one setting wins in every market.",
+    "tags": "minimum stay,pricing,operations"
+  },
+  {
+    "id": "HM080",
+    "category": "Pricing & Competitor Research",
+    "title": "Competitor Review Theme Analysis",
+    "description": "Learn from public guest feedback without copying it.",
+    "prompt": "I will paste publicly visible review excerpts from comparable listings: [paste with names/personal details removed]. Categorise recurring themes such as cleanliness, communication, access, noise, comfort and accuracy. Separate repeated observations from isolated comments, note sample bias and turn themes into a checklist for our property. Don't reproduce identifiable review text or claim competitor facts beyond the excerpts.",
+    "tags": "reviews,competitors,analysis"
+  },
+  {
+    "id": "HM081",
+    "category": "Guest Communication",
+    "title": "Pre-Booking FAQ Reply",
+    "description": "Answer a guest question clearly and completely.",
+    "prompt": "Draft a warm reply to this guest question: [paste]. Verified property facts and relevant rule [details]. Tone [warm/professional/concise]. Answer directly, state limitations honestly, and ask one specific follow-up only if needed. Do not make exceptions or promises I haven't approved. Keep the conversation and booking/payment process within Airbnb where its rules require it.",
+    "tags": "guest reply,FAQ,communication"
+  },
+  {
+    "id": "HM082",
+    "category": "Guest Communication",
+    "title": "Booking Confirmation Message",
+    "description": "Welcome the guest and explain the next step.",
+    "prompt": "Write a booking confirmation message for [property name]. Confirmed dates [dates], guest count [count], check-in time/method [details], next information they will receive [details], host response hours [hours]. Tone [tone]. Keep it short and reassuring. Don't include passwords, door codes or sensitive access details before the appropriate time. Don't ask for off-platform payment or unnecessary personal information.",
+    "tags": "confirmation,message,guest"
+  },
+  {
+    "id": "HM083",
+    "category": "Guest Communication",
+    "title": "Check-In Instructions",
+    "description": "Make arrival easy without exposing security details publicly.",
+    "prompt": "Create a clear check-in message for [property]. Arrival route [verified details], check-in window [time], method [method], parking [details], contact procedure [details], known obstacles [details]. Put sensitive entry credentials only in the appropriate private communication at the correct time; use placeholders in this draft. Include a short backup plan if the guest cannot enter. Do not invent access instructions.",
+    "tags": "check-in,arrival,guest"
+  },
+  {
+    "id": "HM084",
+    "category": "Guest Communication",
+    "title": "Checkout Message",
+    "description": "Give a kind, simple checkout reminder.",
+    "prompt": "Write a concise checkout message for my stay: checkout time [time], keys [instructions], dishes [rule], waste [rule], AC/lights [rule], other steps [list]. Tone friendly and respectful, not demanding. Include only the steps I have confirmed and make clear that guests should not do professional cleaning tasks.",
+    "tags": "checkout,message,guest"
+  },
+  {
+    "id": "HM085",
+    "category": "Guest Communication",
+    "title": "Complaint Response Framework",
+    "description": "Respond calmly and document next steps.",
+    "prompt": "Help me reply to this guest issue: [describe]. Facts confirmed [list], facts unknown [list], immediate safety/comfort concern [yes/no + details], remedy options I can offer [list]. Draft an empathetic, non-defensive message, a short action checklist, and a record-keeping note. Do not blame the guest, make unsupported admissions, promise unavailable remedies or ask the guest to move the conversation off-platform.",
+    "tags": "complaint,service recovery,guest"
+  },
+  {
+    "id": "HM086",
+    "category": "Guest Communication",
+    "title": "Local Directions Message",
+    "description": "Give verified arrival guidance in plain language.",
+    "prompt": "Turn these verified directions into a short guest message: nearest transit/landmark [details], route [details], approximate travel time and source/date [details], building entry notes [details], parking [details]. Clearly label variable travel time, avoid unsupported safety claims and do not add a route detail that hasn't been checked. Keep the message easy to follow on a phone.",
+    "tags": "directions,arrival,local"
+  },
+  {
+    "id": "HM087",
+    "category": "Guest Communication",
+    "title": "Late Arrival Message",
+    "description": "Set expectations for late check-in.",
+    "prompt": "Draft a polite message for a guest arriving later than expected. Current arrangement [details], latest supported check-in [time], host availability [hours], alternative procedure [approved details]. Explain what they should do and how to contact me, without revealing private access details in an insecure channel. Do not promise support outside the hours I actually offer.",
+    "tags": "late arrival,check-in,guest"
+  },
+  {
+    "id": "HM088",
+    "category": "Guest Communication",
+    "title": "Pre-Arrival Reminder",
+    "description": "Send essential details without overwhelming the guest.",
+    "prompt": "Create a pre-arrival reminder for [property] to send [time before arrival]. Include only: verified address/arrival landmark [details], check-in window [time], guest count confirmation if allowed/needed [details], house-rule reminder [details], weather/access caveat [if relevant], and how to message through Airbnb. Keep it concise and don't request sensitive identity documents outside approved processes.",
+    "tags": "pre arrival,reminder,guest"
+  },
+  {
+    "id": "HM089",
+    "category": "Guest Communication",
+    "title": "Post-Stay Thank You",
+    "description": "Thank guests without pressuring them for a review.",
+    "prompt": "Write 3 versions of a post-stay thank-you message: warm, concise and slightly personal. Property [name], any specific true detail worth acknowledging [optional]. Thank them for staying and invite them to share honest feedback through Airbnb if they choose. Do not offer a reward or discount in exchange for a review, and do not dictate a positive rating.",
+    "tags": "thank you,review,guest"
+  },
+  {
+    "id": "HM090",
+    "category": "Guest Communication",
+    "title": "Difficult Boundary Message",
+    "description": "Be clear about rules while remaining respectful.",
+    "prompt": "Help me write a calm message about this house-rule issue: [issue]. Rule exactly as published [quote], confirmed facts [list], approved next steps [list]. State the relevant rule and request a clear action without insults or assumptions. Keep the communication documented through Airbnb and flag when I should consult platform support instead of escalating on my own.",
+    "tags": "boundaries,house rules,communication"
+  },
+  {
+    "id": "HM091",
+    "category": "Welcome Books & Rules",
+    "title": "Complete Welcome Book Outline",
+    "description": "Plan a useful guest guidebook.",
+    "prompt": "Create a guest welcome-book outline for [property name] in [area/city]. Guest needs [families/work travellers/etc.], property facts [list], check-in/out [details], house rules [list], Wi-Fi fields [placeholders only], appliances [list], waste [rules], transport [verified info], local recommendations [verified list], emergency/contact details [official source to verify]. Organise in a simple order with concise copy and mark all unverified details '[HOST TO CONFIRM]'. Never invent emergency numbers or property instructions.",
+    "tags": "welcome book,guidebook,guest"
+  },
+  {
+    "id": "HM092",
+    "category": "Welcome Books & Rules",
+    "title": "Print-Ready House Manual Copy",
+    "description": "Create concise text for a printed in-room manual.",
+    "prompt": "Write print-ready house-manual copy for [property name]. Confirmed details: check-in/out [details], Wi-Fi placeholder [field], AC/heater [instructions], hot water [instructions], kitchen [instructions], waste [instructions], quiet hours [rule], parking [details], checkout [steps], help contact [contact]. Use simple English and optional Hinglish headings. Put placeholders where facts are missing. Avoid technical instructions that could create safety risks; recommend contacting the host for problems.",
+    "tags": "house manual,print,operations"
+  },
+  {
+    "id": "HM093",
+    "category": "Welcome Books & Rules",
+    "title": "Wi-Fi Card Text",
+    "description": "Create a tiny, readable card with blanks to fill by hand.",
+    "prompt": "Generate concise text for a printable Wi-Fi card for [property name]. Include labels only for Network Name: [blank], Password: [blank], and Need Help? [host contact]. Style [minimal/warm/local]. Give versions for English and bilingual English-Hinglish. Avoid QR code claims or made-up details; keep the actual credentials as fields for the host to fill privately before printing.",
+    "tags": "Wi-Fi card,printable,guest"
+  },
+  {
+    "id": "HM094",
+    "category": "Welcome Books & Rules",
+    "title": "House Rules Bilingual Version",
+    "description": "Translate rules without changing their meaning.",
+    "prompt": "Rewrite these confirmed house rules into simple English and natural Hinglish/Hindi: [paste]. Keep meaning identical, avoid legalistic phrasing and preserve time, number and penalty details exactly as supplied. If a rule is ambiguous, flag it rather than inventing interpretation. Format for an A4 poster with short headings and readable text.",
+    "tags": "bilingual,rules,print"
+  },
+  {
+    "id": "HM095",
+    "category": "Welcome Books & Rules",
+    "title": "Checkout Checklist Poster",
+    "description": "Make checkout steps short and guest-friendly.",
+    "prompt": "Create an A4 checkout checklist poster for [property]. Confirmed checkout time [time], key return [details], dishes [rule], waste [rule], AC/lights [rule], windows/doors [rule], other items [list]. Use 5–7 short checklist items, friendly tone and a clear 'Thank you for staying' line. Do not ask guests to do extensive cleaning. Put unknown items as host-confirmation fields.",
+    "tags": "checkout,poster,print"
+  },
+  {
+    "id": "HM096",
+    "category": "Welcome Books & Rules",
+    "title": "Local Guidebook Page",
+    "description": "Provide verified nearby recommendations in a consistent format.",
+    "prompt": "Create one page of local recommendations for guests staying at [property location]. I will provide verified places: [name, type, address/area, why useful, last checked]. Group into food, essentials, transport and activities only where appropriate. For each show name, brief neutral note, travel mode/distance if verified, current-hours reminder and accessibility caveat if known. Do not invent listings or claim endorsement/partnership.",
+    "tags": "local guide,guidebook,guest"
+  },
+  {
+    "id": "HM097",
+    "category": "Welcome Books & Rules",
+    "title": "Appliance Instructions",
+    "description": "Explain simple use and when to contact the host.",
+    "prompt": "Create guest-friendly instruction cards for these appliances actually present: [list/models if known]. Verified controls/instructions [paste manuals or notes]. Use numbered steps, important cautions from the actual manufacturer information and a 'contact host if unsure' line. Do not guess model-specific operation, bypass safety features or offer repair instructions for electrical/gas systems.",
+    "tags": "appliances,manual,safety"
+  },
+  {
+    "id": "HM098",
+    "category": "Welcome Books & Rules",
+    "title": "Accessible and Family Info Sheet",
+    "description": "Help guests assess suitability using confirmed facts.",
+    "prompt": "Create a factual suitability information sheet for guests who may need accessibility or family details. Confirmed facts: steps [details], lift [details], door widths [measurements if available], bathroom layout [details], sleeping arrangements [details], child equipment [details], noise/access [details]. Clearly separate measured/confirmed information from unknowns and invite guests to ask about individual needs. Do not claim a property is accessible without sufficient evidence.",
+    "tags": "accessibility,family,guest info"
+  },
+  {
+    "id": "HM099",
+    "category": "Local Guides & SEO",
+    "title": "Local Search Topic Ideas",
+    "description": "Find locally useful topics without keyword stuffing.",
+    "prompt": "Generate 25 content topic ideas for a stay in [city/area], property type [type], target guest [segment]. Verified local landmarks/transport/events [list]. Organise by practical travel questions, neighbourhood understanding, seasonal planning and property-specific benefits. Provide a natural primary phrase, search intent and content format for each. Do not promise rankings or invent local information. Flag facts that need current verification.",
+    "tags": "local SEO,topics,content"
+  },
+  {
+    "id": "HM100",
+    "category": "Local Guides & SEO",
+    "title": "Neighbourhood FAQ Sheet",
+    "description": "Answer the questions first-time visitors tend to have.",
+    "prompt": "Create a neighbourhood FAQ sheet for guests visiting [area/city] and staying at [property]. Verified transport [details], nearest essentials [list], attractions [list], access/parking [details], noise/context [details]. Give short answers and mark any missing distance/hours as '[CHECK BEFORE PUBLISHING]'. Keep directions neutral and remind guests that traffic and opening hours change.",
+    "tags": "neighbourhood,FAQ,local"
+  },
+  {
+    "id": "HM101",
+    "category": "Local Guides & SEO",
+    "title": "48-Hour Itinerary Draft",
+    "description": "Draft a flexible itinerary using verified nearby options.",
+    "prompt": "Prepare a flexible 48-hour itinerary for guests staying at [area/city]. Guest profile [family/work/food/culture/nature], mobility/transport needs [details], verified places [list + hours/locations], budget preference [range]. Keep travel routes geographically sensible, state that hours and transport should be rechecked, and leave downtime. Do not invent opening hours or claim the host is affiliated with the places.",
+    "tags": "itinerary,local guide,guest"
+  },
+  {
+    "id": "HM102",
+    "category": "Local Guides & SEO",
+    "title": "Getting Here Guide",
+    "description": "Explain arrival options clearly.",
+    "prompt": "Write a getting-here guide for [property area]. Verified arrival options [airport/rail/bus/metro], official station/terminal names [details], approximate travel times and source/date [details], parking [details], entrance notes [details]. Clearly distinguish estimates from confirmed facts and explain what guests should verify closer to arrival. Do not state a route is safe or universally suitable without evidence.",
+    "tags": "transport,directions,local"
+  },
+  {
+    "id": "HM103",
+    "category": "Local Guides & SEO",
+    "title": "Rainy Season / Weather Preparation Guide",
+    "description": "Provide practical preparation without forecasting weather.",
+    "prompt": "Create a seasonal guest preparation note for [Indian city/region] for [season/months]. Property-specific facts [drainage, covered entry, heating/cooling, outdoor access, road constraints—only if confirmed]. Add general packing considerations and official weather/source links I should insert after checking current information. Do not forecast specific weather, promise road conditions or overstate seasonal amenities.",
+    "tags": "seasonal,guest guide,weather"
+  },
+  {
+    "id": "HM104",
+    "category": "Local Guides & SEO",
+    "title": "Local Food Guide",
+    "description": "List useful nearby food options with verified details.",
+    "prompt": "Create a local food guide for guests near [property location]. Options I verified: [restaurant/café/name, cuisine, area, hours/source/date, dietary notes if verified]. Group by breakfast, quick meal, family/group and late option only if facts support it. Include a reminder to verify current hours, prices, dietary claims and availability. Do not fabricate recommendations or claim a business partnership.",
+    "tags": "food guide,local,guest"
+  },
+  {
+    "id": "HM105",
+    "category": "Local Guides & SEO",
+    "title": "Business Travel Area Guide",
+    "description": "Highlight commute and practical needs.",
+    "prompt": "Create an area guide for work travellers staying at [property location]. Confirmed facts [transit points, business districts, Wi-Fi/workspace, food, laundry, parking, commute estimates and source/date]. Organise into transport, work amenities, meals and practical errands. Clearly label commute times as estimates and flag information to recheck. Do not claim a guaranteed commute or internet speed.",
+    "tags": "business travel,area guide,workation"
+  },
+  {
+    "id": "HM106",
+    "category": "Local Guides & SEO",
+    "title": "Local Content Calendar Without Dates",
+    "description": "Create an easy checklist of recurring local topics.",
+    "prompt": "Generate 20 evergreen local content ideas for [city/area] that a small host can publish over time. Use only these confirmed local themes/places: [list]. For each, provide an audience question, post type, short hook and the fact that needs periodic rechecking. Deliver as numbered tasks rather than dates or calendar software. Avoid pretending to be an official tourism authority.",
+    "tags": "local content,planning,SEO"
+  },
+  {
+    "id": "HM107",
+    "category": "Reviews & Reputation",
+    "title": "Honest Review Theme Summary",
+    "description": "Learn from your own feedback.",
+    "prompt": "Analyse these guest feedback notes with personal details removed: [paste]. Group into strengths, repeated friction points, one-off comments and unclear items. Provide counts where possible, quote only short anonymised fragments if needed, and suggest specific operational changes. Do not infer sentiment beyond the text, manufacture reviews or selectively present feedback as representative without noting sample size.",
+    "tags": "review analysis,feedback,quality"
+  },
+  {
+    "id": "HM108",
+    "category": "Reviews & Reputation",
+    "title": "Review Response: Positive",
+    "description": "Thank the guest in a personal, professional way.",
+    "prompt": "Write three responses to this guest review: [review]. Property context [details], tone [tone]. Thank them specifically for the point they mentioned, keep it short, and avoid revealing additional information about their stay. Don't ask them to change the review or mention a reward. Offer a version in natural Hinglish if suitable.",
+    "tags": "review reply,positive,guest"
+  },
+  {
+    "id": "HM109",
+    "category": "Reviews & Reputation",
+    "title": "Review Response: Critical",
+    "description": "Respond without arguing or disclosing private details.",
+    "prompt": "Draft a public response to this critical review: [review]. Verified facts [details], actions taken [details], privacy limits [details]. Acknowledge the concern where appropriate, correct factual errors calmly if evidence supports it, and state a practical improvement without exposing private guest information. Don't attack the reviewer, accuse them of motives or offer an incentive to change the rating.",
+    "tags": "review reply,critical,reputation"
+  },
+  {
+    "id": "HM110",
+    "category": "Reviews & Reputation",
+    "title": "Improvement Tracker From Reviews",
+    "description": "Turn feedback into an operations checklist.",
+    "prompt": "Convert these anonymised reviews/feedback notes into an improvement tracker: [paste]. For each issue include theme, evidence count, severity for guest experience, proposed action, owner, cost estimate field, completion check and follow-up metric. Distinguish urgent safety/maintenance matters from cosmetic preferences. Don't treat one comment as proof of a universal issue.",
+    "tags": "feedback,operations,tracker"
+  },
+  {
+    "id": "HM111",
+    "category": "Reviews & Reputation",
+    "title": "Review-Ready Guest Experience Checklist",
+    "description": "Improve service without scripting fake praise.",
+    "prompt": "Create a guest-experience checklist for my [property type] covering before arrival, check-in, stay, problem handling and checkout. My current process [paste], guest type [segment], constraints [hours/staff]. Suggest practical service standards and ways to invite honest feedback after the stay. Do not recommend review manipulation, incentives tied to ratings or pressuring guests for positive comments.",
+    "tags": "guest experience,reviews,checklist"
+  },
+  {
+    "id": "HM112",
+    "category": "Reviews & Reputation",
+    "title": "Repeated Complaint Root-Cause Analysis",
+    "description": "Look for process causes, not people to blame.",
+    "prompt": "Analyse these anonymised complaints and operations notes: [paste]. Use a simple root-cause framework: what happened, evidence, contributing process, immediate fix, prevention, owner and review date. Separate facts from hypotheses. Prioritise recurring and high-impact issues and recommend when a qualified maintenance professional or Airbnb support should be involved.",
+    "tags": "root cause,complaints,operations"
+  },
+  {
+    "id": "HM113",
+    "category": "Reviews & Reputation",
+    "title": "Guest Feedback Survey",
+    "description": "Ask concise questions after a stay.",
+    "prompt": "Create a voluntary 4-question guest feedback survey for [property]. Questions should cover clarity of information, comfort, check-in, and one improvement suggestion. Avoid collecting unnecessary sensitive data. Include a brief privacy note, make participation optional, and keep the survey separate from any request for a public rating. Do not imply that a positive response is expected.",
+    "tags": "survey,feedback,quality"
+  },
+  {
+    "id": "HM114",
+    "category": "Reviews & Reputation",
+    "title": "Trust Signals Audit",
+    "description": "Find evidence-backed ways to build confidence.",
+    "prompt": "Audit these current trust signals for my stay: [photos, listing completeness, house rules, response process, reviews, amenities, local guide]. Identify real evidence available, gaps, and improvements that don't require exaggerated claims. Never recommend fake reviews, copied testimonials, fake badges, misleading stock photos or false affiliations. Rank improvements by guest impact and effort.",
+    "tags": "trust,reputation,audit"
+  },
+  {
+    "id": "HM115",
+    "category": "Marketing Strategy & Analytics",
+    "title": "90-Minute Weekly Marketing Routine",
+    "description": "A simple routine for hosts with little time.",
+    "prompt": "Design a repeatable 90-minute weekly marketing routine for a solo host. Property [type/location], current channels [list], capacity [minutes], current metrics [data]. Break into short tasks: listing QA, one content asset, guest FAQ update, competitor observation, and performance notes. Prioritise consistency over volume. Do not require paid software or a calendar app; output a numbered checklist I can print.",
+    "tags": "routine,beginner,marketing"
+  },
+  {
+    "id": "HM116",
+    "category": "Marketing Strategy & Analytics",
+    "title": "30-Day Booking Improvement Experiment",
+    "description": "Test a few changes and track results honestly.",
+    "prompt": "Create a 30-day improvement experiment for my property. Baseline data [listing views, booking conversion if available, enquiries, booked nights, prices, dates], property facts [details], changes possible [list]. Choose no more than 3 experiments, define one variable at a time where feasible, baseline and follow-up metrics, timing caveats, and what would count as inconclusive. Emphasise that bookings fluctuate and this cannot guarantee results.",
+    "tags": "experiment,analytics,30 day"
+  },
+  {
+    "id": "HM117",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Simple Weekly KPI Review",
+    "description": "Track useful numbers without becoming an analyst.",
+    "prompt": "Build a beginner-friendly weekly scorecard for a short-term rental. Data I can access [views, wishlists, enquiries, booked nights, cancellations, average nightly price, occupancy, revenue, costs]. Define each metric in plain language, formulas where appropriate, what it can/can't reveal, and a one-page table format. Don't fabricate benchmarks or call metrics 'good' without comparable context.",
+    "tags": "KPI,tracker,analytics"
+  },
+  {
+    "id": "HM118",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Marketing Channel Prioritisation",
+    "description": "Pick channels that fit the property and owner’s time.",
+    "prompt": "Help prioritise marketing channels for my stay: property [details], target guest [segment], location [area], time budget [hours/week], marketing budget INR [amount], current audience/assets [details]. Compare Airbnb listing optimisation, Instagram, local partnerships, repeat-guest communication where policy allows, and other relevant channels. Score effort, fit, cost, measurability and platform/policy considerations. Recommend a small test, not every channel at once.",
+    "tags": "channels,strategy,prioritisation"
+  },
+  {
+    "id": "HM119",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Brand Positioning One-Pager",
+    "description": "Clarify what kind of stay you offer.",
+    "prompt": "Create a one-page positioning brief for my stay. Property facts [list], location [area], actual strengths [list], limitations [list], likely guest segments [list], competitor observations [list]. Return positioning statement, three proof points, message pillars, brand voice, phrases to avoid, and a short factual description. Do not invent luxury credentials or overstate suitability.",
+    "tags": "positioning,brand,strategy"
+  },
+  {
+    "id": "HM120",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Offer Ideas Without Discounting",
+    "description": "Create value ideas that do not depend on price cuts.",
+    "prompt": "Generate 12 ways to present more value for my stay without automatically discounting nightly price. Property amenities [list], services actually offered [list], local resources [verified list], host capacity [details]. Separate no-cost presentation improvements, operational upgrades, partnerships requiring permission, and offers that need policy review. Do not invent amenities, make false scarcity or move Airbnb bookings/payments off-platform.",
+    "tags": "value proposition,offer,strategy"
+  },
+  {
+    "id": "HM121",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Low-Season Content Plan",
+    "description": "Keep content useful during quieter periods.",
+    "prompt": "Create a 4-week low-season content plan for [city/area], property [type], seasonal constraints [verified facts], target guest [segment], real amenities [list]. Focus on honest suitability, flexible planning information, local practical value and property improvements. Suggest experiments to test, not promises of increased occupancy. Flag event/weather information that needs checking against current reliable sources.",
+    "tags": "low season,content,strategy"
+  },
+  {
+    "id": "HM122",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Competitor Monitoring Sheet",
+    "description": "Observe relevant market changes manually.",
+    "prompt": "Design a simple weekly competitor observation sheet for [area] with 5–10 comparable properties I provide: [list/URLs]. Columns should include check date, observed headline/features, public price for same dates, visible fees if available, review themes, minimum stay, photo changes and source link. Explain why date/guest count must remain consistent for comparisons and why public availability is only a snapshot. Do not scrape or invent missing values.",
+    "tags": "competitor tracker,spreadsheet,research"
+  },
+  {
+    "id": "HM123",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Monthly Marketing Review",
+    "description": "Decide what to keep, improve or stop.",
+    "prompt": "Help me review this month's marketing and booking results: [content posted, reach, saves, listing clicks, enquiries, bookings, booked nights, prices, costs, notable events]. Summarise what is known, what is correlation only, what needs more data and 3 actions for next month. Separate social engagement from booking performance and do not assign causation without evidence.",
+    "tags": "monthly review,analytics,decision"
+  },
+  {
+    "id": "HM124",
+    "category": "Marketing Strategy & Analytics",
+    "title": "Marketing Action Plan From Host Intake",
+    "description": "Turn a property questionnaire into prioritised work.",
+    "prompt": "Using this host intake form: [paste property details, location, amenities, current listing, target guest, budget, time available, current challenges and metrics], produce a prioritised 4-week plan. Include goals, weekly numbered actions, materials needed, time estimates, success measures and facts to verify. Make it beginner-friendly and no-calendar-app required. Be transparent about what can and cannot be controlled.",
+    "tags": "personalized plan,host intake,marketing"
+  },
+  {
+    "id": "HM125",
+    "category": "Ads & Campaigns",
+    "title": "Instagram Ad Concept Pack",
+    "description": "Draft testable ads around verified features.",
+    "prompt": "Create 5 Instagram ad concepts for my stay: [property facts], audience [segment], location targeting idea [area], budget INR [amount], destination [Airbnb listing/profile]. Each concept needs hook, primary copy, headline, creative direction, CTA and test hypothesis. Don't claim guaranteed bookings, create fake urgency, imply endorsements or include unverified prices/discounts. Remind me to verify current platform ad rules and audience settings.",
+    "tags": "Instagram ads,campaign,creative"
+  },
+  {
+    "id": "HM126",
+    "category": "Ads & Campaigns",
+    "title": "Property Launch Campaign",
+    "description": "Coordinate a launch across a few simple channels.",
+    "prompt": "Build a 10-day launch campaign for my newly ready [property type] in [location]. Confirmed features [list], photos/video available [list], target guest [segment], channels [list], time/budget [details]. Give numbered actions, post ideas, listing QA, friend/partner outreach that doesn't create fake reviews, and a simple results sheet. No fake bookings, fabricated testimonials or false launch offers.",
+    "tags": "launch,campaign,beginner"
+  },
+  {
+    "id": "HM127",
+    "category": "Ads & Campaigns",
+    "title": "Ad Audience Hypotheses",
+    "description": "Choose audience ideas to test without stereotyping.",
+    "prompt": "Suggest 4 audience hypotheses for promoting this property: [details]. Use travel intent and genuine property fit, not sensitive traits or unsupported demographic assumptions. For each hypothesis specify what property feature is relevant, creative angle, targeting idea to review within platform rules and metric to compare. Include a note to validate platform targeting availability and privacy restrictions before launch.",
+    "tags": "audience,ads,testing"
+  },
+  {
+    "id": "HM128",
+    "category": "Ads & Campaigns",
+    "title": "Campaign Budget Split",
+    "description": "Allocate a small budget cautiously.",
+    "prompt": "Help allocate a test budget of INR [amount] across [platforms/channels] for [duration]. Property details [paste], objective [profile visits/listing traffic/enquiries], assets [list], current audience [details]. Suggest a conservative test structure, spending caps, stop conditions, tracking method and what results are too small to interpret. Do not predict booking counts or treat clicks as guaranteed revenue.",
+    "tags": "budget,ads,planning"
+  },
+  {
+    "id": "HM129",
+    "category": "Ads & Campaigns",
+    "title": "Ad Copy Variations",
+    "description": "Test clarity and guest relevance.",
+    "prompt": "Write 10 ad-copy variations for [property] using these confirmed details [list]. Create different angles: design, practical amenities, location, stay type, ease of arrival and transparent value. For each provide primary text, headline, one CTA and the fact supporting the claim. Keep copy easy to understand; do not invent discounts, scarcity or unverified superlatives.",
+    "tags": "ad copy,copywriting,testing"
+  },
+  {
+    "id": "HM130",
+    "category": "Ads & Campaigns",
+    "title": "Campaign Landing-Path Audit",
+    "description": "Make sure visitors understand where they are going.",
+    "prompt": "Audit the path from this social profile/ad to my Airbnb listing: profile text [paste], link destination [describe], listing first impression [paste], key facts [list]. Identify mismatches in wording, missing information and unnecessary steps. Recommend a clear user journey and compliant CTA. Don't advise moving Airbnb-originated bookings or payments off-platform.",
+    "tags": "conversion path,ads,listing"
+  },
+  {
+    "id": "HM131",
+    "category": "Ads & Campaigns",
+    "title": "Partnership Outreach Message",
+    "description": "Invite a real local business to explore collaboration.",
+    "prompt": "Draft a professional outreach message to [business type/name] in [area] proposing a possible content collaboration with my stay. My property [facts], audience [segment], specific mutual value [idea]. Do not imply an existing relationship, ask for undisclosed endorsements or promise guest volume. Include a transparent disclosure approach for paid or reciprocal content and a polite opt-out.",
+    "tags": "outreach,partnerships,local"
+  },
+  {
+    "id": "HM132",
+    "category": "Ads & Campaigns",
+    "title": "Ad Results Debrief",
+    "description": "Use campaign evidence to make the next decision.",
+    "prompt": "Analyse these ad results: spend INR [amount], impressions [n], clicks [n], landing visits [n], enquiries/bookings if trackable [data], dates [range], creative [description], audience settings [details]. Calculate available rates, define their limits and suggest what to change next. Flag attribution uncertainty, small sample size and any missing tracking; do not claim a booking was caused by the ad without evidence.",
+    "tags": "ad metrics,analysis,campaign"
+  }
+]

@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+scratch/
+test_*.py
+make_*.py
+EOF
